@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PopcornJS!</title>
+    <script src="PopcornJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="popcornjs.css">
+</head>
+
+<body>
+
+    <h1 id="titleQuit1" class="titleQuit"></h1>
+    <h2 id="titleQuit2" class="titleQuit"></h2>
+
+    <h1 class="title">PopcornJS!</h1>
+
+    <video id="popcornjs" ontimeupdate="PopcornJS.printTime(this)">PopcornJS won't work, beacause your browser does not support HTML5 audio/video. Sorry.</video>
+
+    <br><br>
+    <br><br>
+
+    <div id="uploadFile">
+        <input type="file" id="upfile" class="file">
+        <div id="uploadIcon"><img src="pics/upload.png">
+        </div>
+    </div>
+
+    <a href="javascript:PopcornJS.play();"><span title="Play"><img src="pics/play.png" alt="Play"></span></a>
+    <a href="javascript:PopcornJS.pause();"><span title="Pause"><img src="pics/pause.png" alt="Pause"></span></a>
+    <a href="javascript:PopcornJS.stop();"><span title="Stop"><img src="pics/stop.png" alt="Stop"></span></a>
+    <a href="javascript:PopcornJS.quit();"><span title="Quit"><img src="pics/quit.png" alt="Quit"></span></a>
+    <p id="printVideoTime"><code>The current time will be shown here!</code>
+    </p>
+    <div id="progressBar"><span id="theProgress"></span>
+    </div>
+    <br>
+
+</body>
+
+</html>
