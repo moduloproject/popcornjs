@@ -1,6 +1,6 @@
 function setAuto () {
-	PopcornJS.width = auto;
-	PopcornJS.height = auto;
+	document.getElementById("popcornjs").style.width = "auto";
+	document.getElementById("popcornjs").style.height = "auto";
 	console.info("Auto");
 }
 function set480 () {
