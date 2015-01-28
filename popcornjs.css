@@ -55,7 +55,7 @@ input.file {
 a {
 	color: #519CB8;
 }
-video {
-	width: 1280px;
+#popcornjs {
+	width: auto;
 	height: auto;
 }
