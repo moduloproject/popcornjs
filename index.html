@@ -17,23 +17,23 @@
 
     <div id="uploadFile">
         <input type="file" id="upfile" class="file">
-        <div id="uploadIcon"><img src="pics/upload.png">
-        </div>
+        <div id="uploadIcon"><img src="pics/upload.png"></div>
     </div>
 
     <a href="javascript:PopcornJS.play();"><span title="Play"><img src="pics/play.png" alt="Play"></span></a>
     <a href="javascript:PopcornJS.pause();"><span title="Pause"><img src="pics/pause.png" alt="Pause"></span></a>
     <a href="javascript:PopcornJS.stop();"><span title="Stop"><img src="pics/stop.png" alt="Stop"></span></a>
     <a href="javascript:PopcornJS.quit();"><span title="Quit"><img src="pics/quit.png" alt="Quit"></span></a>
-    <p id="printVideoTime"><code>The current time will be shown here!</code>
-    </p>
-    <div id="progressBar"><span id="theProgress"></span>
-    </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
+    <br><br>
+
+    <h2>Set the dimensions of the player</h2>
+
+    <p id="printVideoTime"><code>The current time will be shown here!</code></p>
+    <div id="progressBar"><span id="theProgress"></span></div>
+
+    <br><br>
+    <br><br>
 
     <video id="popcornjs" ontimeupdate="PopcornJS.printTime(this)">PopcornJS won't work, beacause your browser does not support HTML5 audio/video. Sorry.</video>
 
