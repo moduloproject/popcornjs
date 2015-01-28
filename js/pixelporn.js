@@ -28,3 +28,9 @@ function set8K () {
 	document.getElementById("popcornjs").style.height = "4320px";
 	console.info("8K");
 }
+
+function getPixels() {
+	var PixelWidth = document.getElementById("popcornjs").style.width;
+	var PixelHeight = document.getElementById("popcornjs").style.height;
+	document.getElementById("CurrentDimension").innerHTML = "<code>Current dimension : " + PixelWidth + " by " + PixelHeight;
+}
