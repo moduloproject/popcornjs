@@ -36,7 +36,7 @@ var PopcornJS = {
         this.videoEl.src = "";
         console.info("Stopped PopcornJS. Ready to close.");
         var textQuit1 = document.getElementById("titleQuit1").innerHTML = "<b>You can close your window/tab now. Have a nice day!";
-        var textQuit2 = document.getElementById("titleQuit2").innerHTML = "<b>You can check the source code of PopcornJS on <a href='https://github.com/loctauxphilippe/popcornjs'>Github</a>.";
+        var textQuit2 = document.getElementById("titleQuit2").innerHTML = "<b>You can check the source code of PopcornJS on <a href='https://github.com/moduloteam/popcornjs'>Github</a>.";
     },
     printTime: function(event) {
         var minutesCurrent = Math.floor(event.currentTime / 60);
