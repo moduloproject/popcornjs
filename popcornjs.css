@@ -55,3 +55,7 @@ input.file {
 a {
 	color: #519CB8;
 }
+video {
+	border-style: solid;
+	border-color: #fff;
+}
