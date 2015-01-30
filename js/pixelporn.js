@@ -34,3 +34,19 @@ function getPixels() {
 	var PixelHeight = document.getElementById("popcornjs").style.height;
 	document.getElementById("CurrentDimension").innerHTML = "<code>Current dimension : " + PixelWidth + " by " + PixelHeight;
 }
+
+
+// Fullscreen
+
+function goFull () {
+    var elem = document.getElementById("popcornjs");
+    if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+    elem.msRequestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+    elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) {
+    elem.webkitRequestFullscreen();
+    }
+}
